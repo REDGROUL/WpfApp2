@@ -31,10 +31,12 @@ namespace WpfApp2
 
             if(File.Exists(fileName))
             {
+                MessageBox.Show("db founded");
                 using (StreamReader sr = new StreamReader(fileName))
                 {
                    data = sr.ReadToEnd();   
                 }
+
                 string[] lines = data.Split('\n');
                 foreach(string line in lines)
                 {

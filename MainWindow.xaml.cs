@@ -32,6 +32,9 @@ namespace WpfApp2
             if(File.Exists(fileName))
             {
                 MessageBox.Show("db founded");
+                MessageBox.Show("db founded");
+                MessageBox.Show("db founded");
+
                 using (StreamReader sr = new StreamReader(fileName))
                 {
                    data = sr.ReadToEnd();   

@@ -34,6 +34,9 @@ namespace WpfApp2
                 MessageBox.Show("db founded");
                 MessageBox.Show("db founded");
                 MessageBox.Show("db founded");
+                MessageBox.Show("db founded");
+                MessageBox.Show("db founded");
+                MessageBox.Show("db founded");
 
                 using (StreamReader sr = new StreamReader(fileName))
                 {

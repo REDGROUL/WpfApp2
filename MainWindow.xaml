@@ -21,7 +21,7 @@
 
         <Button Grid.Row="1" Content="Добавить" Click="Button_Click" Margin="10,114,10,280"/>
         <Button Width="220" Name="SaveToFile" HorizontalAlignment="Center" Content="Сохранить" Click="SaveToFile_Click" Margin="0,167,0,228"/>
-        <Button Width="220" Name="SaveToFile" HorizontalAlignment="Center" Content="Сохранить" Click="SaveToFile_Click" Margin="0,167,0,228"/>
+        
         <DataGrid Name="ServicesGrid" AutoGenerateColumns="True" Grid.Column="1" >
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Service"  Binding="{Binding Service}"    Width="30*"/>
